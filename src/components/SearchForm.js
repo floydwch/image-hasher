@@ -50,7 +50,7 @@ export default function SearchForm({
       css={formStyle}
       onSubmit={submitHandler}
     >
-      <input placeholder={placeholder} name="input" css={inputStyle}></input>
+      <input placeholder={placeholder} name="input" css={inputStyle} />
       <button css={buttonStyle}>{submitText}</button>
     </form>
   )

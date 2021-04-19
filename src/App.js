@@ -167,7 +167,7 @@ function App() {
           activeIndex={list.activeIndex}
           reversed
           onSelect={handleSelect}
-        ></CardList>
+        />
       </nav>
       <main css={mainStyle}>
         <Figure {...curItem} />
